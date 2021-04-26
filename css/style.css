@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    
+    text-decoration: none;
+}
+
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/********************************************
+           header-section-desigon
+********************************************/
+
+
+
+
+.first-section{
+    background-image: url(../images/banner-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   height: auto;
+   
+    
+}
+/********************************************
+           nav-section-desigon
+********************************************/
+
+.f-logo a{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.f-sec-design span i{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.f-sec-design span i:focus{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.menu-design ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif; 
+}
+.menu-design ul li a:hover{
+    
+   
+}
+
+
+/********************************************
+          NAVBAR TOGGLER BUTTON-desigon
+********************************************/
+
+.navbar-toggler{
+    padding:.25rem .50rem;
+    font-size:1.25rem;
+    line-height:1;
+    background-color:transparent;
+    border:1px solid #ffffff;
+    border-radius: 0;
+}
+.navbar-toggler:focus,.navbar-toggler:hover{
+    text-decoration:none;
+    padding:.25rem .50rem;
+    font-size:1.25rem;
+    line-height:1;
+    background-color:transparent;
+    border:1px solid #ffffff;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+}
+.navbar-toggler-icon{
+    display:inline-block;
+    width:1.5em;
+    height:1.5em;
+    vertical-align:middle;
+    content:"";
+    background:no-repeat center center;
+}
+
+/********************************************
+           banner-section-desigon
+********************************************/
+.b-sec-design{
+    width: 100%;
+}
+.bnr-full{
+   padding: 218px 0px;
+   text-align: center;
+}
+.bnr-full h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 900;
+    letter-spacing: 10px;
+    font-family: 'Raleway', sans-serif; 
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    display: inline-block;
+    
+}
+.bnr-full h1 span{
+    letter-spacing: 0px;
+
+}
+
+.bnr-full p{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+
+/********************************************
+           about me-section-desigon
+********************************************/
+
+.about-me{
+    width: 100%;
+    padding: 80px 0px 0px 0px;
+}
+.details-left{
+    width: 100%;
+}
+.details-left img{
+    width: 100%;
+}
+
+.details-right{
+    padding: 60px 0px;
+}
+.details-right h3{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;  
+    color: #7f7f7f;
+    margin-bottom: 32px;
+    
+}
+.details-right span{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;  
+    color: #b4b4b4;
+}
+
+.details-right p{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;  
+    color: #b4b4b4;
+    margin-top: 32px;
+}
+.details-right button{
+    padding: 8px 48px;
+    margin-top: 48px;
+    background-color: #ff2b4a;
+    border: none;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+/********************************************
+          Working Process Section
+********************************************/
+
+
+
+
+
+
+
+.working-process{
+    width: 100%;
+    padding: 80px 0px 96px 0px;
+    background-color: #f6f6f6;
+}
+.processes{
+    width: 100%;
+}
+.feature-title{
+    text-align: center;
+}
+.feature-title h2{
+    font-family: 'Raleway', sans-serif; 
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+}
+.feature-title p{
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 600;
+    font-size: 15px;
+    color: #7f7f7f;
+    margin-top: 32px;
+}
+.process-card{
+    width: 100%;
+    
+}
+.process-1{
+    background-color: #10c6fc;
+    text-align: center;
+    padding: 80px 0px 70px 0px;
+    
+}
+.process-1 a i{
+    margin-bottom: 32px;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.process-1 p{
+    font-family: 'Raleway', sans-serif; 
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.card1{
+    background-color: #10c6fc;
+}
+.card2{
+    background-color: #835aeb;
+}
+.card3{
+    background-color: #002453;
+}
+.card4{
+    background-color: #ff2b4a;
+}
+
+
+
+
+/********************************************
+          Skill Section
+********************************************/
+.skill-section{
+    padding: 80px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************
+          Footer Section
+********************************************/
+/* footer{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.footer-section{
+    background-color: #15141a;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding: 24px 0px;
+}
+.menus-footer{
+
+}
+.menus-footer{
+    
+}
+.footer-social-menus{
+    text-align: center;
+    padding: 10px 0px;
+}
+.footer-social-menus p{
+    
+    color: #707070;
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.menus-footer ul li{
+    
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+    
+}
+.menus-footer ul li a i{
+    padding: 0px 16px 16px 16px;
+    color: #707070;
+    font-size: 16px;
+    
+    
+}
+.menus-footer ul:nth-child(3){
+    color: #008ed6;
+}
+
+.menus-footer ul li a i:hover{
+    transition: all .3s ease;
+    color: #008ed6;
+    transform: rotate(360deg);
+    transition-duration: 1.5s;
+}
+ */
+
+
+/********************************************
+    JQUERY SCROLL UP PLUGIN SECTION DESIGN
+********************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+/********************************************
+           Media Queries
+********************************************/
+
+@media only screen and (min-width: 1200px) {
+    
+    #scrollUp {
+        bottom: 30px;
+        right: 20px;
+        background-image: url(../images/top.png);
+        height: 38px;
+        width: 38px;
+    }
+  }
+
+
+@media only screen and (max-width: 1199px) {
+    .plan-body h2::before{
+        position: absolute;
+        content: "$";
+        font-size: 30px;
+        left: 33%;
+        top: 14%;
+    } 
+    #scrollUp {
+        bottom: 30px;
+        right: 20px;
+        background-image: url(../images/top.png);
+        height: 38px;
+        width: 38px;
+    }
+  }
+
+@media only screen and (max-width: 992px) {
+    #scrollUp {
+        bottom: 30px;
+        right: 20px;
+        background-image: url(../images/top.png);
+        height: 38px;
+        width: 38px;
+    }
+  }
+ 
+@media only screen and (max-width: 768px) {
+    
+    #scrollUp {
+        bottom: 30px;
+        right: 20px;
+        background-image: url(../images/top.png);
+        height: 38px;
+        width: 38px;
+    }
+    
+  }
+@media only screen and (max-width: 576px) {
+    
+    #scrollUp {
+        bottom: 30px;
+        right: 20px;
+        background-image: url(../images/top.png);
+        height: 38px;
+        width: 38px;
+    }
+  }
+  
+@media only screen and (max-width: 480px) {
+    
+    #scrollUp {
+        bottom: 30px;
+        right: 20px;
+        background-image: url(../images/top.png);
+        height: 38px;
+        width: 38px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    
+    #scrollUp {
+        bottom: 30px;
+        right: 20px;
+        background-image: url(../images/top.png);
+        height: 38px;
+        width: 38px;
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+   
+}
+
+
+
