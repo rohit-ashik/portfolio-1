@@ -30,6 +30,30 @@ $('document').ready(function(){
         $('.circlechart').circlechart();
       
       });
+
+
+
+      $(function() {
+        
+        $.scrollify.move("#about-me");
+      
+      });
+
+
+
+      
+      $('#days').countdown('2024/06/28', function(event) {
+        $(this).html(event.strftime('%d'));
+      });
+      $('#hours').countdown('2024/06/28', function(event) {
+        $(this).html(event.strftime('%H'));
+      });
+      $('#minutes').countdown('2024/06/28', function(event) {
+        $(this).html(event.strftime('%M'));
+      });
+      $('#seconds').countdown('2024/06/28', function(event) {
+        $(this).html(event.strftime('%S'));
+      });
 });
 
 
