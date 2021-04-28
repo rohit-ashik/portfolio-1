@@ -24,6 +24,7 @@
 
     <!--progress circle CSS LINK-->
     <link rel="stylesheet" href="css/progresscircle.css">
+    
 
     <!--CUSTOM CSS LINK-->
     <link rel="stylesheet" href="css/style.css">
@@ -31,17 +32,21 @@
   <body>
 
 
+    
+
+
     <!--nav section starts here-->
     <header class="first-section">
         <div class="container">
             <div class="row px-0">
                 <div class="col-md-12">
-                    <nav class="navbar navbar-expand-lg f-sec-design py-3 px-0">
+                    <nav class="navbar  navbar-expand-lg  f-sec-design py-3 px-0">
                         <div class="f-logo">
                             <a class="navbar-brand" href="#">A.R. ARENA</a>
                         </div>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                          <span class=""><i class="fa fa-navicon m-0 p-0" style="color:rgb(255, 255, 255); font-size:28px; "></i></span>
+                          <span class="">
+                            <i class="fa fa-list-ul m-0 p-0" style="color:rgb(255, 255, 255); font-size:24px; " aria-hidden="true"></i></span>
                         </button>
                         <div class="collapse navbar-collapse text-center menu-design" id="navbarNav">
                           <ul class="navbar-nav ml-auto">
@@ -90,13 +95,13 @@
 
 
     <!--About section starts here-->
-    <section class="about-me">
+    <section class="about-me" id="about-me">
         <div class="container">
             <div class="my-details">
                 <div class="row">
                     <div class="col-md-5">
                         <div class="details-left">
-                            <img class="img-fluid w-100" src="images/man-shadow.png" alt="">
+                            <img class="img-fluid w-100" src="images/ashik3.png" alt="">
                         </div>
                     </div>
                     <div class="col-md-7">
@@ -223,9 +228,113 @@
 
 
 
-    <!--Reveiw section starts here
+    <!--Qualification section starts here-->
+
+    <section class="qualification-section">
+        <div class="container">
+            <div class="qualifications py-4">
+                <div class="row py-5">
+                    <div class="col-md-6">
+                        <div class="q-left mb-4 mb-md-0">
+                            <h3>Work Experience</h3>
+                            <div class="up-qualify">
+                                <h5>Mad Max Design</h5>
+                                <h6>OCT 2013 - june 2014</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                            </div>
+                            <div class="hr-line">
+                                <hr class="text-white">
+                            </div>
+                            <div class="down-qualify">
+                                <h5>Crazy Design</h5>
+                                <h6>OCT 2014 - june 2015</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="q-left">
+                            <h3>Education</h3>
+                            <div class="up-qualify">
+                                <h5>Maddison University</h5>
+                                <h6>OCT 2013 - june 2014</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                            </div>
+                            <div class="hr-line">
+                                <hr class="text-white">
+                            </div>
+                            <div class="down-qualify">
+                                <h5>Max Design & Art Institute</h5>
+                                <h6>OCT 2014 - june 2015</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Qualification section ends here-->
 
 
+
+
+    <!--countdown section starts here-->
+    <section class="coundown-section">
+        <div class="container">
+            <div class="coundowns">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="countdown-title">
+                            
+                            <h2 class="">Countdown For New Project</h2>
+                            <p>New project is coming soon!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row c-design">
+                    <div class="col-md-3 days-design">
+                        <div class="days ">
+                            <div id="days"></div>
+                        </div>
+                        <h2 class="mb-md-0 mb-5">DAYS</h2>
+                    </div>
+                    <div class="col-md-3 days-design">
+                        <div class="hours">
+                            <div id="hours"></div>
+                        </div>
+                        <h2 class="mb-md-0 mb-5">HOURS</h2>
+                        
+                    </div>
+                    <div class="col-md-3 days-design">
+
+                        <div class="minutes">
+                            <div id="minutes"></div>
+                        </div>
+                        <h2 class="mb-md-0 mb-5">MINUTES</h2>
+                        
+                    </div>
+                    <div class="col-md-3 days-design">
+                        <div class="seconds">
+                            <div id="seconds"></div> 
+                        </div>
+                        <h2 class="mb-md-0 mb-5">SECONDS</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--countdown section ends here-->
+
+
+
+
+
+
+<!--Get this section starts here
     <section class="reveiw-section">
         <div class="container">
             <div class="reveiws">
@@ -351,7 +460,7 @@
 
 
     <script src="js/jquery.scrollUp.min.js"></script>
-    
+    <script src="js/jquery.countdown.min.js"></script>
     <script src="js/progresscircle.js"></script>
     <script src="js/main.js"></script>
     
